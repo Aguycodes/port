@@ -33,10 +33,11 @@ body {
     width: 50%;
 }
 .image {
+    border: 3px solid rgb(184, 229, 255);
     border-radius: 50%;
     background-color: #eeeeee;
     display: block;
-    width: 100%;
+    width: 80px;
     height: auto;
 }
 
@@ -48,9 +49,9 @@ body {
     left: 0;
     right: 0;
     height: 100%;
-    width: 100%;
+    width: 80px;
     opacity: 0;
-    transition: .8s ease;
+    transition: .5s ease;
     background-color: #eeeeee;
   }
   
@@ -90,9 +91,17 @@ body {
     grid-row-start: 2;
     grid-column-start: span 3;
 }
+.four p {
+    text-align: center;
+    font-size: 1.5em;
+}
 .four img {
-    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
     border-radius: 50%;
+    border: 5px solid rgb(0, 162, 255);
 }
 .five {
     grid-row-start: 2;
