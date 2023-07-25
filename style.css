@@ -26,6 +26,101 @@ body {
     height: 97%;
     width: 100%;
 }
+.one {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    position: relative;
+    width: 50%;
+}
+.image {
+    border-radius: 50%;
+    background-color: #eeeeee;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .8s ease;
+    background-color: #eeeeee;
+  }
+  
+  .one:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+  
+.two {
+    grid-row-start: 1;
+    grid-column-start: 4;
+    position: relative;
+    width: 50%;
+}
+.two:hover .overlay {
+    opacity: 1;
+  }
+.three {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    position: relative;
+    width: 50%;
+}
+.three:hover .overlay {
+    opacity: 1;
+  }
+.four {
+    grid-row-start: 2;
+    grid-column-start: span 3;
+}
+.four img {
+    height: 350px;
+    border-radius: 50%;
+}
+.five {
+    grid-row-start: 2;
+    grid-column-start: 5;
+    position: relative;
+    width: 50%;
+}
+.five:hover .overlay {
+    opacity: 1;
+  }
+.six {
+    grid-row-start: 3;
+    grid-column-start: 2;
+    position: relative;
+    width: 50%;
+}
+.six:hover .overlay {
+    opacity: 1;
+  }
+.seven {
+    grid-row-start: 3;
+    grid-column-start: 4;
+    position: relative;
+    width: 50%;
+}
+.seven:hover .overlay {
+    opacity: 1;
+  }
 footer {
     bottom: 0;
     text-align: center;
