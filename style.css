@@ -17,3 +17,16 @@ body {
     66% {background-image: url(images/backgroundImages/coding-g25e9a703b_1920.jpg);}
     100% {background-image: url(images/backgroundImages/technology-g304bc01ed_1920.jpg);}
 }
+.main {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 60% 20%;
+    justify-items: center;
+    align-items: center;
+    height: 97%;
+    width: 100%;
+}
+footer {
+    bottom: 0;
+    text-align: center;
+}
