@@ -6,12 +6,14 @@ body {
     margin: 0;
     height: 100vh;
     width: 100%;
+    background-color: #333333;
+    background-blend-mode: multiply;
     background-size: cover;
     animation: backgroundAnim 90s ease-in-out infinite alternate;
 }
 @keyframes backgroundAnim {
-    0% {background-image: url(images/backgroundImages/code-g29b708675_1920.jpg); background-color: #333333; background-blend-mode: multiply;}
-    33% {background-image: url(images/backgroundImages/code-gd2cf8fc37_1920.jpg); background-color: #333333; background-blend-mode: multiply;}
-    66% {background-image: url(images/backgroundImages/coding-g25e9a703b_1920.jpg); background-color: #333333; background-blend-mode: multiply;}
-    100% {background-image: url(images/backgroundImages/technology-g304bc01ed_1920.jpg); background-color: #333333; background-blend-mode: multiply;}
+    0% {background-image: url(images/backgroundImages/code-g29b708675_1920.jpg);}
+    33% {background-image: url(images/backgroundImages/code-gd2cf8fc37_1920.jpg);}
+    66% {background-image: url(images/backgroundImages/coding-g25e9a703b_1920.jpg);}
+    100% {background-image: url(images/backgroundImages/technology-g304bc01ed_1920.jpg);}
 }
