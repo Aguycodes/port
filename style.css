@@ -30,6 +30,9 @@ body {
     height: 97%;
     width: 100%;
 }
+.main a {
+    border-radius: 50%;
+}
 .one {
     grid-row-start: 1;
     grid-column-start: 2;
