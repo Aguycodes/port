@@ -160,3 +160,21 @@ footer {
     bottom: 0;
     text-align: center;
 }
+
+@media only screen and (max-width: 500px){
+    .image {
+        width: 50px;
+    }
+    .overlay {
+        width: 50px;
+    }
+    .text {
+        font-size: 1em;
+    }
+    .four img {
+        height: 150px;
+    }
+    .four p {
+        font-size: 1.2em;
+    }
+}
