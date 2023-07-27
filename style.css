@@ -49,6 +49,7 @@ body {
     display: block;
     width: 80px;
     height: auto;
+    opacity: .7;
 }
 
 .overlay {
@@ -60,7 +61,7 @@ body {
     right: 0;
     height: 100%;
     width: 80px;
-    opacity: 0;
+    opacity: .7;
     transition: .5s ease;
     background-color: #eeeeee;
   }
