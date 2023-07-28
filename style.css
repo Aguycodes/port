@@ -64,6 +64,7 @@ body {
     opacity: .7;
     transition: .5s ease;
     background-color: #eeeeee;
+    border: 2px solid rgb(184, 229, 255);
   }
   
   .one:hover .overlay {
