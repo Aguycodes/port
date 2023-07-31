@@ -116,12 +116,18 @@ body {
     font-size: 1.5em;
 }
 .four img {
+    cursor: pointer;
     display: block;
     margin-left: auto;
     margin-right: auto;
     height: 300px;
     border-radius: 50%;
     border: 5px solid rgb(0, 162, 255);
+    transition: 1s;
+}
+.four img:hover {
+    transform: scale(1.1);
+    border-color: #bffbff;
 }
 .five {
     grid-row-start: 2;
