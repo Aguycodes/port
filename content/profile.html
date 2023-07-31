@@ -5,51 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>profile</title>
     <link rel="shortcut icon" href="/images/icons/icons8-profile-100 .ico" type="image/x-icon">
-    <style>
-        * {
-            color: white;
-        }
-        body{
-            background-color: #333333;
-            margin: 0;
-            padding: 0;
-            height: 100vh;
-        }
-        .main {
-            height: 97%;
-            display: grid;
-            grid-template-columns: 50% 50%;
-            justify-items: center;
-            align-items: center;
-        }
-        img {
-            grid-column-start: 1;
-            height: 80%;
-            border: 5px solid rgb(0, 162, 255);
-            border-radius: 2em;
-        }
-        .content {
-            grid-column-start: 2;
-            padding: 20px;
-        }
-        p {
-            font-size: 1.3em;
-        }
-        a:link, a:active {
-            text-decoration: none;
-            color: #faadad;
-            transition: .5s;
-        }
-        a:hover {
-            color: red;
-        }
-        footer {
-            bottom: 0;
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="back"><img src="/images/icons/icons8-back-button-100.png" alt="back_button" onclick="window.history.go(-1)" id="bck"></div>
     <div class="main">
         <img src="/images/Snapchat-1288631343.jpg" alt="profile pic">
         <div class="content">
