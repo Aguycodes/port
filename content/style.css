@@ -64,6 +64,7 @@ footer {
     position: fixed;
     cursor: pointer;
     transition: 1s;
+    z-index: 99;
 }
 #bck:hover {
     transform: scale(1.1);
