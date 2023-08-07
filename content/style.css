@@ -3,6 +3,8 @@
 }
 body{
     background: linear-gradient(300deg, #333333, #999999);
+    background-size: cover;
+    background-repeat: no-repeat;
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -65,6 +67,36 @@ footer {
 }
 #bck:hover {
     transform: scale(1.1);
+}
+.contact {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.contact img{
+    width: 70px;
+    opacity: 0;
+}
+.contact img:first-of-type{
+    animation: fadeIn 1s forwards;
+}
+.contact img:nth-of-type(2){
+    animation: fadeIn 1s forwards;
+    animation-delay: .5s;
+}
+.contact img:nth-of-type(3){
+    animation: fadeIn 1s forwards;
+    animation-delay: 1s;
+}
+.contact img:nth-of-type(4){
+    animation: fadeIn 1s forwards;
+    animation-delay: 1.5s;
+}
+.contact img:last-of-type{
+    animation: fadeIn 1s forwards;
+    animation-delay: 2s;
 }
 @media only screen and (max-width: 850px){
     body {

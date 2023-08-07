@@ -123,11 +123,12 @@ body {
     height: 300px;
     border-radius: 50%;
     border: 5px solid rgb(0, 162, 255);
-    transition: 1s;
+    transition: .5s;
 }
 .four img:hover {
     transform: scale(1.1);
     border-color: #bffbff;
+    border-radius: 1em;
 }
 .five {
     grid-row-start: 2;
